@@ -1,27 +1,38 @@
-/* * {
-  background-image: url("https://images.unsplash.com/photo-1444723121867-7a241cacace9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
-} */
+* {
+  background-image: url("https://images.pexels.com/photos/1341279/pexels-photo-1341279.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  color: white;
+}
 
 .card-container {
-  width: 80%;
-  height: 470px;
+  background: transparent;
+  width: 70%;
+  height: 300px;
   margin: auto;
-  margin-top: 100px;
-  border: 2px yellowgreen solid;
+  margin-top: 200px;
+  border: 1px yellowgreen solid;
+  border-left: none;
+  border-right: none;
   border-radius: 1%;
   padding: 45px;
 }
 
-.card-container h3 {
+.card-container p {
+  background: transparent;
   font-family: 'Aboreto', cursive;
 }
 
-.card-container p {
+.card-container h4 {
+  background: transparent;
   font-size: 25px;
 }
 
 .card-container .quote {
+  background: transparent;
   height: 50%;
+}
+
+div {
+  background: transparent;
 }
 
 .card-container .author-container {
@@ -29,20 +40,28 @@
 }
 
 .author-container {
+  background: transparent;
   padding: 0 30px;
 }
 
 .button-container {
+  background: transparent;
+  cursor: none;
   display: flex;
   width: 100%;
 }
 
+button .change-button {
+  cursor: pointer;
+}
+
 .button-container svg:hover {
+  border-radius: 100%;
   fill: yellowgreen;
 }
 
 
-.button-container .button-container {
+div .button-container {
   border: none;
   background-color: transparent;
   padding: 5px;
